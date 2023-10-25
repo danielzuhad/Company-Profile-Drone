@@ -1,0 +1,85 @@
+.overview-container {
+  max-width: 100vw;
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -14em;
+  margin-bottom: 9em;
+}
+
+.overview-feature {
+  margin-top: 2em;
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10em;
+}
+
+.overview-items {
+  display: flex;
+  width: 15em;
+  flex-direction: column;
+  align-items: center;
+  border-color: aliceblue;
+  border-width: 2px;
+  padding: 2em;
+  border-radius: 1em;
+  border-style: solid;
+}
+
+.overview-text-button {
+  margin-top: 3em;
+}
+
+.overview-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.overview-container-card {
+  display: flex;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+  gap: 5em;
+  flex-wrap: wrap;
+}
+
+.button-card-overview {
+  height: 10em;
+  width: 10em;
+  padding: 1em;
+  background-color: rgb(2, 11, 20);
+  color: #d4d2d2;
+  font-size: 1em;
+  border: 5px solid white;
+  border-radius: 1em;
+  cursor: pointer;
+  text-align: center;
+  justify-self: center;
+}
+
+.overview-text-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3em;
+}
+
+@media (max-width: 1571px) {
+  .overview-text-button {
+    margin-top: -1em;
+  }
+}
+
+@media (max-width: 1099px) {
+  .overview-text-button {
+    margin-bottom: 5em;
+  }
+}

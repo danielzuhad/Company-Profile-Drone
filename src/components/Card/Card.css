@@ -1,0 +1,41 @@
+.card-container {
+  width: 17em;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: max-content;
+}
+
+.card-img {
+  width: 100%;
+  object-fit: cover;
+  height: 15em;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-title {
+  color: black;
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+  margin: 0.5em 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+}
+
+.button-card {
+  background-color: white;
+  color: black;
+  font-size: 1em;
+  width: 5em;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
